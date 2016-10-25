@@ -6,25 +6,27 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Oct 2016 23:18:47 +0800</pubDate>
-    <lastBuildDate>Tue, 25 Oct 2016 23:18:47 +0800</lastBuildDate>
+    <pubDate>Tue, 25 Oct 2016 23:21:08 +0800</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2016 23:21:08 +0800</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>开始的开始</title>
         <description>&lt;p&gt;一直都觉得搭建一个私人博客是件很酷的事情，终于在今天迈出了第一步。&lt;/p&gt;
 
-&lt;p&gt;感谢知乎用户@&lt;a href=&quot;https://www.zhihu.com/people/kresnikwang&quot;&gt;王彦宁&lt;/a&gt;，受了他的一篇回答的启发，才最终决定采用github+jekyll的方式制作博客。&lt;/p&gt;
+&lt;p&gt;感谢知乎用户&lt;strong&gt;@&lt;a href=&quot;https://www.zhihu.com/people/kresnikwang&quot;&gt;王彦宁&lt;/a&gt;&lt;/strong&gt;，受了他的一篇回答的启发，才最终决定采用github+jekyll的方式制作博客。&lt;/p&gt;
 
-&lt;p&gt;感谢简书作者@&lt;a href=&quot;http://www.jianshu.com/users/27977c26588a&quot;&gt;Jason_Yuan&lt;/a&gt;，jekyll的搭建参照了他在文章&lt;a href=&quot;http://www.jianshu.com/p/3f355c7872d5&quot;&gt;通过Github Pages和Jekyll搭建个人博客&lt;/a&gt;中介绍的方法，同时他的另一篇文章&lt;a href=&quot;http://www.jianshu.com/p/6cabb41495c8&quot;&gt;如何使用Github Pages免费搭建网站&lt;/a&gt;也非常值得一看。&lt;/p&gt;
+&lt;p&gt;感谢简书作者&lt;strong&gt;@&lt;a href=&quot;http://www.jianshu.com/users/27977c26588a&quot;&gt;Jason_Yuan&lt;/a&gt;&lt;/strong&gt;，jekyll的搭建参照了他在文章&lt;strong&gt;&lt;a href=&quot;http://www.jianshu.com/p/3f355c7872d5&quot;&gt;通过Github Pages和Jekyll搭建个人博客&lt;/a&gt;&lt;/strong&gt;中介绍的方法，同时他的另一篇文章&lt;strong&gt;&lt;a href=&quot;http://www.jianshu.com/p/6cabb41495c8&quot;&gt;如何使用Github Pages免费搭建网站&lt;/a&gt;&lt;/strong&gt;也非常值得一看。&lt;/p&gt;
 
-&lt;p&gt;感谢@&lt;a href=&quot;http://yansu.org&quot;&gt;yansu&lt;/a&gt;，他的博文&lt;a href=&quot;http://yansu.org/2014/02/12/how-to-deploy-a-blog-on-github-by-jekyll.html&quot;&gt;在Github上搭建Jekyll博客和创建主题&lt;/a&gt;给了我很大启发。&lt;/p&gt;
+&lt;p&gt;感谢&lt;strong&gt;@&lt;a href=&quot;http://yansu.org&quot;&gt;yansu&lt;/a&gt;&lt;/strong&gt;，他的博文&lt;strong&gt;&lt;a href=&quot;http://yansu.org/2014/02/12/how-to-deploy-a-blog-on-github-by-jekyll.html&quot;&gt;在Github上搭建Jekyll博客和创建主题&lt;/a&gt;&lt;/strong&gt;给了我很大启发。&lt;/p&gt;
 
-&lt;p&gt;最后感谢@&lt;a href=&quot;https://github.com/wild-flame&quot;&gt;David Lin&lt;/a&gt;制作的jekyll主题，非常简洁也很好看，因为比较懒，后面可能就以此为基础拓展自己的东西了。&lt;/p&gt;
+&lt;p&gt;感谢&lt;strong&gt;@&lt;a href=&quot;http://www.jianshu.com/users/b771961f99fc&quot;&gt;yieku&lt;/a&gt;&lt;/strong&gt;，在他的&lt;strong&gt;&lt;a href=&quot;http://www.jianshu.com/p/5256ecc06eec&quot;&gt;安利&lt;/a&gt;&lt;/strong&gt;下决定使用&lt;strong&gt;&lt;a href=&quot;http://www.typora.io&quot;&gt;Typora&lt;/a&gt;&lt;/strong&gt;来进行MD文件的写作。&lt;/p&gt;
 
-&lt;p&gt;David Lin 在主题上放的照片&lt;/p&gt;
+&lt;p&gt;最后感谢&lt;strong&gt;@&lt;a href=&quot;https://github.com/wild-flame&quot;&gt;David Lin&lt;/a&gt;&lt;/strong&gt;制作的jekyll主题，非常简洁也很好看，因为比较懒，后面可能就以此为基础拓展自己的东西了。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/_site/assets/img/Taffy.jpg&quot; alt=&quot;Taffy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;David Lin 在主题上放的照片:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Taffy.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 24 Oct 2016 11:33:26 +0800</pubDate>
