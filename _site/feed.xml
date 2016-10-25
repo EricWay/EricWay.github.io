@@ -4,11 +4,37 @@
     <title>Your awesome title</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://localhost:4000/jekyll-simple/</link>
-    <atom:link href="http://localhost:4000/jekyll-simple/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Oct 2016 23:28:20 +0800</pubDate>
-    <lastBuildDate>Mon, 24 Oct 2016 23:28:20 +0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 25 Oct 2016 23:02:07 +0800</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2016 23:02:07 +0800</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>开始的开始</title>
+        <description>&lt;p&gt;一直都觉得搭建一个私人博客是件很酷的事情，终于在今天迈出了第一步。&lt;/p&gt;
+
+&lt;p&gt;感谢知乎用户@&lt;a href=&quot;https://www.zhihu.com/people/kresnikwang&quot;&gt;王彦宁&lt;/a&gt;，受了他的一篇回答的启发，才最终决定采用github+jekyll的方式制作博客。&lt;/p&gt;
+
+&lt;p&gt;感谢简书作者@&lt;a href=&quot;http://www.jianshu.com/users/27977c26588a&quot;&gt;Jason_Yuan&lt;/a&gt;，jekyll的搭建参照了他在文章&lt;a href=&quot;http://www.jianshu.com/p/3f355c7872d5&quot;&gt;通过Github Pages和Jekyll搭建个人博客&lt;/a&gt;中介绍的方法，同时他的另一篇文章&lt;a href=&quot;http://www.jianshu.com/p/6cabb41495c8&quot;&gt;如何使用Github Pages免费搭建网站&lt;/a&gt;也非常值得一看。&lt;/p&gt;
+
+&lt;p&gt;感谢@&lt;a href=&quot;http://yansu.org&quot;&gt;yansu&lt;/a&gt;，他的博文&lt;a href=&quot;http://yansu.org/2014/02/12/how-to-deploy-a-blog-on-github-by-jekyll.html&quot;&gt;在Github上搭建Jekyll博客和创建主题&lt;/a&gt;给了我很大启发。&lt;/p&gt;
+
+&lt;p&gt;最后感谢@&lt;a href=&quot;https://github.com/wild-flame&quot;&gt;David Lin&lt;/a&gt;制作的jekyll主题，非常简洁也很好看，因为比较懒，后面可能就以此为基础拓展自己的东西了。&lt;/p&gt;
+
+&lt;p&gt;David Lin 在主题上放的照片&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/_site/assets/img/Taffy.jpg&quot; alt=&quot;Taffy&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 24 Oct 2016 11:33:26 +0800</pubDate>
+        <link>http://localhost:4000/%E9%9A%8F%E6%89%8B%E8%AE%B0/2016/10/24/the-very-beginning.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E9%9A%8F%E6%89%8B%E8%AE%B0/2016/10/24/the-very-beginning.html</guid>
+        
+        
+        <category>随手记</category>
+        
+      </item>
     
       <item>
         <title>Styles at a glance</title>
@@ -80,7 +106,7 @@
 
 &lt;h3 id=&quot;image&quot;&gt;Image:&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/jekyll-simple/assets/img/image.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/image.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;table&quot;&gt;Table:&lt;/h3&gt;
 
@@ -126,399 +152,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 03 Jul 2016 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/jekyll-simple/jekyll/2016/07/03/styles-for-simple.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll-simple/jekyll/2016/07/03/styles-for-simple.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月14日 下午11:46
-Tags:	The Girl
-Location:	铁道东路 216号, 张家口市, 河北省, 中国
-Weather:	36° Mostly Clear
-Photo:	2015-3-14.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;昨晚睡很晚，大概是因为睡之前一直在想你，所以自你离开之后，第一次在梦中见到你。虽然你对我还是一副不理不睬的样子，可是我还是很高兴，因为感觉离你那么的近。
-后来，我终于学会了如何去爱，可惜你却早已远去消失在人海。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月15日 下午12:37
-Tags:	The Girl
-Location:	铁道东路 216号, 张家口市, 河北省, 中国
-Weather:	63° Mostly Sunny
-Photo:	2015-3-15.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;早上还未睁眼，脑子里便全都是你，想和你在一起的每一个画面，想你为我笑为我哭。故意发错给你的信息你也不闻不问，没错，我是一个浑小子，可我也是一个傻小子。
-要拿什么拯救，当爱覆水难收。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月16日 上午2:25
-Tags:	The Girl
-Location:	铁道东路 214号, 张家口市, 河北省, 中国
-Weather:	46° Mostly Clear
-Photo:	2015-3-16.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;不开心，好想要宝宝来逗我，说起来我可真是个浑小子，每次都是你一逗我我就很开心，我逗你却是怎么都只是心有余而力不足，唉，哈哈，哈哈哈，哈哈哈哈。
-输了你，也赢不了世界。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月17日 上午8:06
-Tags:	The Girl
-Location:	马道底街 68号, 张家口市, 河北省, 中国
-Weather:	48° Mist and Fog
-Photo:	2015-3-17.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;七点钟起床，忙了一天，午饭下午三点多才吃上，在张家口PK，弄虚作假，嬉笑逢迎，干的全都是我不喜欢的事儿，可还是不敢停下来。
-我想我应该换张手机屏保，一停下来就忍不住的要想你。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月18日 下午8:35
-Tags:	The Girl
-Location:	铁道东路 216号, 张家口市, 河北省, 中国
-Weather:	43° Mostly Clear
-Photo:	2015-3-18.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;喝醉啦！和同事两个人整了两瓶白的，回来的时候终于鼓起勇气打电话给你，你接了，我很开心。可是有句话，即使喝醉了终究还是藏在了心里。
-我过的不好，很不好。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月19日 下午4:18
-Location:	宏运大道 1738号, 南京市, 江苏省, 中国
-Weather:	57° Hazy
-Photo:	2015-3-19.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;处处哥的女朋友来了，于是无家可归，住在家门口的宾馆里，也是醉了。你说射手座花心，有时候觉得是，有时候觉得又不是，说痴心才对的吧，爱一个，痴一个。
-如今我痴着你，你知不知道。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月20日 下午11:40
-Location:	双龙大道辅路 53号, 南京市, 江苏省, 中国
-Weather:	52° Mist and Fog
-Photo:	2015-3-20.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;哈哈哈哈，我一定是个神经病。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月21日 上午12:00
-Location:	32.0793° N, 118.488° E
-Photo:	2015-3-21.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;公司去大吉温泉度假，没有网络没有信号，掼蛋三国杀很开心，但是还是不能一个人。人果然都是会变的，曾经以为自己这一辈子都不会抽烟，不会赌博，可现在那些话都随风而去了吧。
-有些事情总让人无能为力，有些话说的时候是真心诚意就很好了呢。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月22日 下午11:02
-Location:	宏运大道 1774号, 南京市, 江苏省, 中国
-Weather:	57° Partly Cloudy
-Photo:	2015-3-22.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;你在台北看夜景，我在南京想你。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月23日 下午11:03
-Location:	双龙大道 598号, 南京市, 江苏省, 中国
-Weather:	48° Mostly Clear
-Photo:	2015-3-23.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;台湾地震，你安好。听到你的声音我很开心，可是却不知道该讲什么了。于是我也拍了南京的夜景。
-我们都以为永远有很远，可是不知不觉就再也看不见。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月24日 下午10:47
-Location:	双龙大道 590号, 南京市, 江苏省, 中国
-Weather:	52° Mostly Clear
-Photo:	2015-3-24.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;感觉话说多了都是矫情，临睡前想你一发，晚安。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月25日 下午10:38
-Location:	双龙大道辅路, 南京市, 江苏省, 中国
-Weather:	55° Mostly Clear
-Photo:	2015-3-25.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;有时候也会怀疑，我这么放不下你，是不是只是因为求不得？害怕你从我生命里淡去，也期待未知的未来。
-总之这一刻，希望那里有你。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年3月26日 下午11:31
-Tags:	The Girl
-Location:	丹阳大道, 南京市, 江苏省, 中国
-Weather:	54° Mist and Fog
-Photo:	2015-3-26.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;怎么说呢，你才去了一个月，为什么感觉是好久好久？&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年4月6日 下午9:23
-Location:	呼和浩特市, 内蒙古自治区, 中国
-Weather:	31° Clear
-Photo:	2015-4-6.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;今天晚上吃饭的时候晕倒了，有点担心自己的身体状况，写点儿东西，呵呵。&lt;/p&gt;
-
-&lt;p&gt;我爱我的爷爷，爸爸，妈妈，弟弟，大姨，大姨父，幺姑，杰姑，青云姐，还有好多亲人，可是不知道为什么就想把你们单独拎出来。&lt;/p&gt;
-
-&lt;p&gt;李翔、萌萌、方子洋、朱明鑫、杨原德、小耗子、楚鸿霄、方凯、会长、曾哥，这些将会是我一辈子的朋友，你们也就别分什么先后。&lt;/p&gt;
-
-&lt;p&gt;张芸、李威、陈曦，我爱你们的时候都是真心实意，祝你们幸福。&lt;/p&gt;
-
-&lt;p&gt;陈玉是个好姑娘，想起你估计是因为你曾真心的希望我和她在一起。&lt;/p&gt;
-
-&lt;p&gt;余璐和杜拉拉，谢谢你们曾给我短暂的欣喜。&lt;/p&gt;
-
-&lt;p&gt;刘摇平、孙善丽，真的很钦佩你俩，喜欢跟你们谈心。&lt;/p&gt;
-
-&lt;p&gt;我现在都不知道是谁的那个她，谢谢你曾默默的喜欢我那么久，这让我感到存在的意义。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年8月30日 下午11:27
-Tags:	逗比的日常
-Location:	汉中路132号, 南京市, 江苏省, 中国
-Weather:	75° Mist and Fog
-Photo:	2015-8-30.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;我们几个在一起的时候总是很开心，虽然今天的密室呆比和女神队初尝败绩，但是桌游和晚饭都很棒。
-昨天跟朋朋一起吃晚饭，聊了很多，年轻的时候不懂事，错过了，耽误了，但也许这才是青春。
-莫名其妙被人拉黑，呵呵，也许再无交集，对我俩都是一件好事，该放下了。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年10月28日 下午10:34
-Tags:	Why not me
-Location:	中国江苏省南京市江宁区东山街道双龙大道590号, 南京市, 江苏省, 中国
-Weather:	57° Light Rain
-Photo:	2015-10-28.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;这张图的名字被我叫做孤独的树。&lt;/p&gt;
-
-&lt;p&gt;树并不孤独，他还有晚霞夕阳，孤独的，只不过是我罢了。&lt;/p&gt;
-
-&lt;p&gt;我觉得我在一步一步沦为一个平庸的人，想想都觉得可怕。&lt;/p&gt;
-
-&lt;p&gt;我不愿意，我现在还记得，我不愿意！&lt;/p&gt;
-
-&lt;p&gt;我的骨子里有自卑，但也有自傲。我瞧不起那些我瞧不起的人，因此我不愿意与他们为伍。&lt;/p&gt;
-
-&lt;p&gt;可这世界就要成为他们的了，我又怎么能够甘心！&lt;/p&gt;
-
-&lt;p&gt;总有人要赢，Why not me ？&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年10月29日 下午10:32
-Tags:	Why not me
-Location:	中国江苏省南京市江宁区东山街道双龙大道598号, 南京市, 江苏省, 中国
-Weather:	57° Mist and Fog
-Photo:	2015-10-29.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;你总是这样大言不惭。&lt;/p&gt;
-
-&lt;p&gt;拿什么去拯救，你心底的骄傲。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年11月27日 下午1:45
-Tags:	逗比的日常, The Girl
-Location:	南京市, 江苏省, 中国
-Weather:	43° Mostly Sunny
-Photo:	2015-11-27.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;再一次决定戒烟了，并不是挑在一个特别的日子，也不知道这次能坚持多久。&lt;/p&gt;
-
-&lt;p&gt;是真的讨厌燃烧过后尼古丁的味道，也是真的发觉有点太过于依赖它了。&lt;/p&gt;
-
-&lt;p&gt;过于依赖，总归是不好的。&lt;/p&gt;
-
-&lt;p&gt;我也迫切的需要做成功一件事来证明自己，我需要这种成就感。&lt;/p&gt;
-
-&lt;p&gt;小区落了一地的银杏叶，跟这篇日记没有任何关系。&lt;/p&gt;
-
-&lt;p&gt;戒烟这件事，我也希望它与你没有任何关系。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年11月29日 下午11:59
-Tags:	逗比的日常
-Location:	南京市, 江苏省, 中国
-Weather:	45° Scattered Fog
-Photo:	2015-11-29.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;有些事情，自己知道就好了&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年11月30日 下午10:50
-Tags:	逗比的日常
-Location:	南京市, 江苏省, 中国
-Weather:	54° Mist and Fog
-Photo:	2015-11-30.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;两天，烟瘾犯了好难受，好想出去买包烟。&lt;/p&gt;
-
-&lt;p&gt;以前都是自己骗自己，想怎么活就怎么活，及时行乐，跟着就出去买了。&lt;/p&gt;
-
-&lt;p&gt;这次来点儿不一样吧，立字为证。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年12月1日 下午10:38
-Tags:	Why not me
-Location:	中国江苏省南京市江宁区东山街道双龙大道594号, 南京市, 江苏省, 中国
-Weather:	57° Mist and Fog
-Photo:	2015-12-1.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;加油&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年12月2日 下午10:20
-Tags:	The Girl
-Location:	青岛路10-9号, 南京市, 江苏省, 中国
-Weather:	45° Mostly Clear
-Photo:	2015-12-2.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;我去了南大。&lt;/p&gt;
-
-&lt;p&gt;从小粉桥走到青岛路，熊猫一间店没有人营业，南园三栋没有人等我，只有和风食堂的乌冬面，还是味道如常。&lt;/p&gt;
-
-&lt;p&gt;那么近，却又那么遥远。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年12月3日 下午11:36
-Tags:	逗比的日常
-Location:	将军路29号, 南京市, 江苏省, 中国
-Weather:	34° Mostly Clear
-Photo:	2015-12-3.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;我突然有一个疯狂的想法。&lt;/p&gt;
-
-&lt;p&gt;给自己两个月，或者更长的时间，什么也不干，去旅行。&lt;/p&gt;
-
-&lt;p&gt;要有资本去实现这个想法，加油！&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年12月6日 下午9:59
-Tags:	Why not me
-Location:	南方花园, 南京市, 江苏, 中国
-Weather:	37° Patchy Fog
-Photo:	2015-12-6.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;这个周末过的仍不符预期。&lt;/p&gt;
-
-&lt;p&gt;魏先生，要记得你对自己说的话，要记得当初吹下的牛，然后一个一个去实现它。&lt;/p&gt;
-
-&lt;p&gt;人生，要不断的去经历啊。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年12月7日 下午11:54
-Tags:	逗比的日常
-Location:	南京市, 江苏省, 中国
-Weather:	36° Patchy Fog
-Photo:	2015-12-7.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;记录一件事：&lt;/p&gt;
-
-&lt;p&gt;有此兄弟，夫复何求。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2015年12月29日 上午12:23
-Tags:	The Girl
-Location:	武陵西路15号, 湘西土家族苗族自治州, 湖南省, 中国
-Photo:	2015-12-29.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;你好啊，760&lt;/p&gt;
-
-&lt;p&gt;你走后，我去过南大两趟。12月2号去的时候，
-从小粉桥走到青岛路，熊猫一间店没有人营业，南园三栋没有人等我，只有和风食堂的乌冬面，还是味道如常。&lt;/p&gt;
-
-&lt;p&gt;你可能不知道，你说你要离开的时候，我从来都没有想过，你再也不会回来。&lt;/p&gt;
-
-&lt;p&gt;你给过我迄今为止最大的快乐，也让我头一回明白心塞到底是一种什么感觉，整个人都透不过气来。&lt;/p&gt;
-
-&lt;p&gt;道别的第二天，同事经过我的座位，说了一声你怎么像个死人一样，于是我至今都记得那种感觉，魂不守舍，宛如走肉。&lt;/p&gt;
-
-&lt;p&gt;很长一段时间内，看到你的名字心都会痛，可是还是忍不住在纸上，一遍一遍的写。&lt;/p&gt;
-
-&lt;p&gt;我开始经常的想起你，有时候想着想着就一个人傻笑，有时候想着想着，就要哭了。&lt;/p&gt;
-
-&lt;p&gt;有一次坐在高铁上，看到食品包装上的台湾就想到你，耳机里正在播的歌是我爱的人，你知道么，当时的我好想你、忘记你我做不到、我们的歌，真的就只是下一曲、下一曲、再下一曲。&lt;/p&gt;
-
-&lt;p&gt;有一次故意装作发错信息给你，桌子上是一瓶二锅头，说了一句我不在南京啊，你知道么，我是多么想你能再回一句，奎哥，少喝点儿。&lt;/p&gt;
-
-&lt;p&gt;你曾说我对你的回复总是没有你对我说的话暖心，可我只是希望能够一牵手就是一辈子，一起哭一起笑，一起白头走到老。&lt;/p&gt;
-
-&lt;p&gt;时间过的真快，一转眼就从年初走到了年尾，不知道在明天和以后的日子里，是谁会去给你买豆浆油条。&lt;/p&gt;
-
-&lt;p&gt;今天应该是个热闹的日子，本不应该对你讲这些絮絮叨叨的话，可是，请你原谅我，因为过了明天，就再也没有760了。&lt;/p&gt;
-
-&lt;p&gt;于是我终究也等不到多年以后，颤颤巍巍起床，然后轻声的说一句&lt;/p&gt;
-
-&lt;p&gt;你好啊，陈曦&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                                      曾经的767
-                                                       新年快乐！
-                     
-
-
-
-
-
-
-
-
-
-
-Date:	2016年5月31日 上午3:01
-Tags:	Why not me
-Location:	南京市, 江苏省, 中国
-Weather:	70° Mist and Fog
-Photo:	2016-5-31.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;今夜失眠，想了很多事，做了两个决定：戒烟，戒躁。一个是为了健康生活，一个是为了平心做事。记录于此，全力为之。
-2016.5.31 3:00&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date:	2016年8月24日 上午9:07
-Tags:	Why not me
-Location:	郁金香路17号A栋3楼, 南京市, 江苏省, 中国
-Photo:	2016-8-24.jpg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;下半年的目标：
-1.成为一个合格的软件工程师
-2.学会一门乐器：吉他-尤克里里
-3.早日戒烟&lt;/p&gt;
-</description>
-        <pubDate>Sun, 19 Jun 2016 21:06:26 +0800</pubDate>
-        <link>http://localhost:4000/jekyll-simple/jekyll/2016/06/19/Entries.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll-simple/jekyll/2016/06/19/Entries.html</guid>
+        <link>http://localhost:4000/jekyll/2016/07/03/styles-for-simple.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2016/07/03/styles-for-simple.html</guid>
         
         
         <category>jekyll</category>
@@ -559,8 +194,8 @@ Photo:	2016-8-24.jpg
 
 </description>
         <pubDate>Sun, 19 Jun 2016 21:06:26 +0800</pubDate>
-        <link>http://localhost:4000/jekyll-simple/jekyll/2016/06/19/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll-simple/jekyll/2016/06/19/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/jekyll/2016/06/19/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2016/06/19/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
