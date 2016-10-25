@@ -17,7 +17,7 @@ categories: 随手记
 
 感谢**@[yieku](http://www.jianshu.com/users/b771961f99fc)**，在他的**[安利](http://www.jianshu.com/p/5256ecc06eec)**下决定使用**[Typora](http://www.typora.io)**来进行MD文件的写作。
 
-最后感谢@[David Lin](https://github.com/wild-flame)制作的jekyll主题，非常简洁也很好看，因为比较懒，后面可能就以此为基础拓展自己的东西了。
+最后感谢**@[David Lin](https://github.com/wild-flame)**制作的jekyll主题，非常简洁也很好看，因为比较懒，后面可能就以此为基础拓展自己的东西了。
 
 David Lin 在主题上放的照片:
 
