@@ -19,5 +19,5 @@ categories: 随手记
 
 David Lin 在主题上放的照片
 
- ![Taffy]({{site.baseurl}}/_site/assets/img/Taffy.jpg)
+ ![]({{site.baseurl}}/assets/img/Taffy.jpg)
 
