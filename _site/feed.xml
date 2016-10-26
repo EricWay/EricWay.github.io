@@ -6,9 +6,24 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Oct 2016 23:21:08 +0800</pubDate>
-    <lastBuildDate>Tue, 25 Oct 2016 23:21:08 +0800</lastBuildDate>
+    <pubDate>Thu, 27 Oct 2016 00:15:39 +0800</pubDate>
+    <lastBuildDate>Thu, 27 Oct 2016 00:15:39 +0800</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>A crazy mind</title>
+        <description>&lt;p&gt;觉得下载别人的主题还是不够geek，决定重头开始自己做一个。&lt;/p&gt;
+
+&lt;p&gt;嗯，就这样。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Oct 2016 00:14:26 +0800</pubDate>
+        <link>http://localhost:4000/%E9%9A%8F%E6%89%8B%E8%AE%B0/2016/10/27/A-crazy-mind.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E9%9A%8F%E6%89%8B%E8%AE%B0/2016/10/27/A-crazy-mind.html</guid>
+        
+        
+        <category>随手记</category>
+        
+      </item>
     
       <item>
         <title>开始的开始</title>
