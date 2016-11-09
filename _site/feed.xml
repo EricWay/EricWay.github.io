@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wei Renkui‘s Blog</title>
+    <title>低头奔跑的🐱</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 Oct 2016 00:17:51 +0800</pubDate>
-    <lastBuildDate>Fri, 28 Oct 2016 00:17:51 +0800</lastBuildDate>
+    <pubDate>Wed, 09 Nov 2016 23:25:38 +0800</pubDate>
+    <lastBuildDate>Wed, 09 Nov 2016 23:25:38 +0800</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>EricWay.github.io项目日志2016-10-30</title>
+        <description>&lt;p&gt;拉了巴特沃兹•AD•凯和msp430•dds彦一起做这个项目，已经快一个星期了，这俩逼到现在估计连环境都没搭好，不禁想骂一声呆比。&lt;/p&gt;
+
+&lt;p&gt;哎，你俩要是看到的话，倒是给个音儿啊，说好的一起玩儿，不会这么怂吧？&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Oct 2016 20:02:26 +0800</pubDate>
+        <link>http://localhost:4000/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97/2016/10/30/EricWay.github.io%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%972016-10-30.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97/2016/10/30/EricWay.github.io%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%972016-10-30.html</guid>
+        
+        
+        <category>项目日志</category>
+        
+      </item>
     
       <item>
         <title>A crazy mind</title>
@@ -17,11 +32,11 @@
 &lt;p&gt;嗯，就这样。&lt;/p&gt;
 </description>
         <pubDate>Thu, 27 Oct 2016 00:14:26 +0800</pubDate>
-        <link>http://localhost:4000/%E9%9A%8F%E6%89%8B%E8%AE%B0/2016/10/27/A-crazy-mind.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E9%9A%8F%E6%89%8B%E8%AE%B0/2016/10/27/A-crazy-mind.html</guid>
+        <link>http://localhost:4000/ideas/2016/10/27/A-crazy-mind.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ideas/2016/10/27/A-crazy-mind.html</guid>
         
         
-        <category>随手记</category>
+        <category>ideas</category>
         
       </item>
     
@@ -37,7 +52,7 @@
 
 &lt;p&gt;感谢&lt;strong&gt;@&lt;a href=&quot;http://www.jianshu.com/users/b771961f99fc&quot;&gt;yieku&lt;/a&gt;&lt;/strong&gt;，在他的&lt;strong&gt;&lt;a href=&quot;http://www.jianshu.com/p/5256ecc06eec&quot;&gt;安利&lt;/a&gt;&lt;/strong&gt;下决定使用&lt;strong&gt;&lt;a href=&quot;http://www.typora.io&quot;&gt;Typora&lt;/a&gt;&lt;/strong&gt;来进行MD文件的写作。&lt;/p&gt;
 
-&lt;p&gt;最后感谢&lt;strong&gt;@&lt;a href=&quot;https://github.com/wild-flame&quot;&gt;David Lin&lt;/a&gt;&lt;/strong&gt;制作的jekyll主题，非常简洁也很好看，因为比较懒，后面可能就以此为基础拓展自己的东西了。&lt;/p&gt;
+&lt;p&gt;最后感谢&lt;strong&gt;@&lt;a href=&quot;https://github.com/wild-flame&quot;&gt;David Lin&lt;/a&gt;&lt;/strong&gt;制作的&lt;strong&gt;&lt;a href=&quot;https://github.com/wild-flame/jekyll-simple&quot;&gt;jekyll主题&lt;/a&gt;&lt;/strong&gt;，非常简洁也很好看，因为比较懒，后面可能就以此为基础拓展自己的东西了。&lt;/p&gt;
 
 &lt;p&gt;David Lin 在主题上放的照片:&lt;/p&gt;
 
