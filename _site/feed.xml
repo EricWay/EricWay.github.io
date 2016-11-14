@@ -1,24 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>低头奔跑的🐱</title>
+    <title>低头奔跑的猫</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Nov 2016 23:25:38 +0800</pubDate>
-    <lastBuildDate>Wed, 09 Nov 2016 23:25:38 +0800</lastBuildDate>
+    <pubDate>Mon, 14 Nov 2016 22:17:27 +0800</pubDate>
+    <lastBuildDate>Mon, 14 Nov 2016 22:17:27 +0800</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
-        <title>EricWay.github.io项目日志2016-10-30</title>
+        <title>对话</title>
+        <description>&lt;p&gt;想做的事情有很多。&lt;/p&gt;
+
+&lt;p&gt;譬如学一门乐器，最好是架子鼓，吉他，或者尤克里里。有时候觉得甚至可以是一管箫，学古人泛舟江上，着一袭白衣，何等潇洒。&lt;/p&gt;
+
+&lt;p&gt;譬如出去走走，草原沙漠，雪山海底，意面咖喱。看看外面的世界，无论是执子之手，或者是孑然独行。&lt;/p&gt;
+
+&lt;p&gt;譬如去蹦个极，冲个浪，背着降落伞在天空中翱翔。&lt;/p&gt;
+
+&lt;p&gt;譬如去一次西雅图，只为看一次TI邀请赛。&lt;/p&gt;
+
+&lt;p&gt;譬如看好多好多书。&lt;/p&gt;
+
+&lt;p&gt;譬如成为自己专业领域的技术大牛。&lt;/p&gt;
+
+&lt;p&gt;最希望的，就是能把小时候到现在吹过的每个牛皮都实现。&lt;/p&gt;
+
+&lt;p&gt;当然这个肯定是不可能的了，因为小学一年级的时候我跟我妈说我的理想是做国家主席。我又不是传销骗子，现在还会去相信只要你努力，一切就都有可能的鬼话。&lt;/p&gt;
+
+&lt;p&gt;有些事，注定是这辈子都做不到了。&lt;/p&gt;
+
+&lt;p&gt;譬如在大学里谈一场轰轰烈烈的恋爱。&lt;/p&gt;
+
+&lt;p&gt;人，总要学会取舍。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 14 Nov 2016 10:02:26 +0800</pubDate>
+        <link>http://localhost:4000/%E6%97%A0%E5%85%B3%E9%A3%8E%E6%9C%88/2016/11/14/%E5%AF%B9%E8%AF%9D.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%97%A0%E5%85%B3%E9%A3%8E%E6%9C%88/2016/11/14/%E5%AF%B9%E8%AF%9D.html</guid>
+        
+        
+        <category>无关风月</category>
+        
+      </item>
+    
+      <item>
+        <title>两个呆比</title>
         <description>&lt;p&gt;拉了巴特沃兹•AD•凯和msp430•dds彦一起做这个项目，已经快一个星期了，这俩逼到现在估计连环境都没搭好，不禁想骂一声呆比。&lt;/p&gt;
 
 &lt;p&gt;哎，你俩要是看到的话，倒是给个音儿啊，说好的一起玩儿，不会这么怂吧？&lt;/p&gt;
 </description>
         <pubDate>Sun, 30 Oct 2016 20:02:26 +0800</pubDate>
-        <link>http://localhost:4000/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97/2016/10/30/EricWay.github.io%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%972016-10-30.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97/2016/10/30/EricWay.github.io%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%972016-10-30.html</guid>
+        <link>http://localhost:4000/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97/2016/10/30/%E4%B8%A4%E4%B8%AA%E5%91%86%E6%AF%94.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97/2016/10/30/%E4%B8%A4%E4%B8%AA%E5%91%86%E6%AF%94.html</guid>
         
         
         <category>项目日志</category>
@@ -60,11 +95,11 @@
 
 </description>
         <pubDate>Mon, 24 Oct 2016 11:33:26 +0800</pubDate>
-        <link>http://localhost:4000/%E9%9A%8F%E6%89%8B%E8%AE%B0/2016/10/24/the-very-beginning.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E9%9A%8F%E6%89%8B%E8%AE%B0/2016/10/24/the-very-beginning.html</guid>
+        <link>http://localhost:4000/%E6%97%A0%E5%85%B3%E9%A3%8E%E6%9C%88/2016/10/24/%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%80%E5%A7%8B.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%97%A0%E5%85%B3%E9%A3%8E%E6%9C%88/2016/10/24/%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%80%E5%A7%8B.html</guid>
         
         
-        <category>随手记</category>
+        <category>无关风月</category>
         
       </item>
     
