@@ -6,12 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keyword"  content="">
+    <meta name="description" content="关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。">
+    <meta name="keywords"  content="黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友">
+    <meta name="theme-color" content="#000000">
+    
+    <title>About - 黄玄的博客 | Hux Blog</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="/img/favicon.ico">
-
-    <title>About - 低头奔跑的猫</title>
-
+    
+    <!-- Canonical URL -->
     <link rel="canonical" href="http://localhost:4000/about/">
 
     <!-- Bootstrap Core CSS -->
@@ -26,7 +33,7 @@
     <!-- Custom Fonts -->
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
     <!-- Hux change font-awesome CDN to qiniu -->
-    <link href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 
     <!-- Hux Delete, sad but pending in China
@@ -62,15 +69,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">低头奔跑的猫</a>
+            <a class="navbar-brand" href="/">Hux Blog</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <!-- Known Issue, found by Hux:
-            <nav>'s height woule be hold on by its content.
-            so, when navbar scale out, the <nav> will cover tags.
-            also mask any touch event of tags, unfortunately.
-        -->
         <div id="huxblog_navbar">
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -80,6 +82,10 @@
                     
                     <li>
                         <a href="/about/">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/portfolio/">Portfolio</a>
                     </li>
                     
                     <li>
@@ -102,10 +108,8 @@
     var $navbar = document.querySelector('#huxblog_navbar');
     var $collapse = document.querySelector('.navbar-collapse');
 
-    $toggle.addEventListener('click', handleMagic)
-    function handleMagic(e){
-        if ($navbar.className.indexOf('in') > 0) {
-        // CLOSE
+    var __HuxNav__ = {
+        close: function(){
             $navbar.className = " ";
             // wait until animation end.
             setTimeout(function(){
@@ -114,12 +118,38 @@
                     $collapse.style.height = "0px"
                 }
             },400)
-        }else{
-        // OPEN
+        },
+        open: function(){
             $collapse.style.height = "auto"
             $navbar.className += " in";
         }
     }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
 </script>
 
 
@@ -144,69 +174,101 @@
         
 
 <!-- USE SIDEBAR -->
-    <!-- Post Container -->
+    <!-- PostList Container -->
     		<div class="
                 col-lg-8 col-lg-offset-1
                 col-md-8 col-md-offset-1
                 col-sm-12
                 col-xs-12
-                post-container
+                postlist-container
             ">
     			<!-- Language Selector -->
-<select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英语 English </option>
+    <option value="1"> 英文 English </option>
 </select>
 
 <!-- Chinese Version -->
 <div class="zh post-container">
-    <blockquote>
-        写写代码，做做设计，看看产品。
-        世界那么大，多玩玩看看。
-    </blockquote>
-    9月21日上午，阳光明媚，鲜花斗艳。帕洛阿尔托苹果店里欢声笑语，人头攒动。苹果公司首席执行官蒂姆·库克先生在店长欧阳猛南陪同下，不远千米，深入到一线店面，为那里的员工带去节曰的问候和良好的祝愿。<br><br>“果粉们，你们辛苦了，我代表某果公司，祝你们身体健康，生活幸福，工作成功！”库克亲切慰问广大员工和顾客，并就iOS7、iPhone 5S和iPhone 5C的销售状况进行调研。 <br><br>“您现在每月工资有多少？肾5S拿到了吗？”在店里，库克关切地向果粉们问起这一问题。当听说果粉们排到了5S，库克满意地连连点头。接着他指出，近年来苹果事业发展取得巨大成就，特别是iPhone影响剧增，老百姓对iOS满意度逐步提高，在这个转变过程中，果粉的辛勤工作功不可没。<br><br>库克看到一个中国小朋友在排队买iPhone 5S，亲切的问：“5288元一台能承受不？”小朋友回答到：“能！”当得知这位小朋友卖了一个肾来买iPhone 5S时，库克叮嘱道：“在支持苹果的同时，也要爱护身体。”<br><br>库克与购买苹果手机的果粉们兴致勃勃地参观了苹果专卖店，和员工们拉了拉家常，并饶有兴趣地玩了四盘切西瓜游戏，与普通员工同乐。<br><br>在交谈中，库克多次关心地强调：“有了iPhone 5C，就不卖iPhone 5了。”并对顾客说：“好好休息，身体是革命的本钱嘛！”会谈始终在亲切友好的气氛中进行。<br><br>顾客们就库克的讲话达成了广泛的共识，并承认世界上只有iOS最流畅，要紧紧的团结在以库克先生为首席执行官的苹果公司集体周围，一心一意抓学习，聚精会神谋发展。<br>
-    <br>帕洛阿尔托苹果专卖店当日原则通过《蒂姆·库克首席执行官在加州新苹果店的讲话纪要》，并下发各分店认真学习、研讨。
 
-    <p style="text-align:right;">
-        —— <a href="http://www.zhihu.com/question/19687065">李书航 － 什么是「共产中文腔调」？ </a>
-    </p>
+    <!--copied from markdown -->
+    <blockquote><p>写写代码，做做设计，<br>
+    离开世界之前，一切都是过程</p></blockquote>
 
+    <p>Hey，我是<strong>黄玄</strong>，程序员 &amp; 设计师，<a href="https://medium.com/ben-and-dion/team-web-3315aa447fb2#.359a9c6cl">Team Web</a>，前淘宝网 · <a href="http://alitrip.com">阿里旅行</a>前端团队资深实习生 · 花名鬼栈，前微影时代 · <a href="http://www.wepiao.com/?r=movie">微票儿</a>前端基础工程团队负责人。</p>
+
+    <p>一些作品和开源项目，👉 戳 <a href="https://zhuanlan.zhihu.com/p/21280918">演说.io</a>、<a href="/portfolio">Portfolio</a> 与 <a href="http://github.com/huxpro">Github</a>；除了在博客与 <a href="http://zhuanlan.zhihu.com/huxblog">知乎专栏 · 一生想做浪漫极客</a> 写点东西外，我也是 <a href="http://www.gfansub.com/">GDG 字幕组</a> 与 <a href="http://zhuanlan.zhihu.com/FrontendMagazine">前端外刊评论 · 知乎专栏</a> 的翻译维护成员。</p>
+    
+    <p>音乐重度依赖患者，设计师强迫症患者，书买得比看得多患者，毒舌患者，科技产品发布会观看癖患者，间歇性感伤患者，习惯性熬夜患者。</p>
+    <h5>Talks</h5>
+
+    <ul>
+    <li><a href="//huangxuan.me/2016/10/20/pwa-qcon2016/">Progressive Web Apps，复兴序章 · QCon 上海 2016</a></li>
+    <li><a href="//huangxuan.me/2016/06/05/pwa-in-my-pov/">Progressive Web App 之我见 · 2016</a></li>
+    <li><a href="//huangxuan.me/2015/12/28/css-sucks-2015/">CSS Still Sucks 2015 · 2015</a></li>
+    <li><a href="//huangxuan.me/2015/07/09/js-module-7day/">JavaScript 模块化七日谈 · 2015</a></li>
+    </ul>
 </div>
 
 <!-- English Version -->
 <div class="en post-container">
-    <blockquote>
-        Designer or Engineer, things in between.
-    </blockquote>
+    <blockquote><p>Yet another Web Developer. <br>
+    Yet another Life-long Designer.</p></blockquote>
 
-    <p>
-        Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.
-    </p>
+    <p>Hi, I am <strong>Huang Xuan(黄玄)</strong>，you can call me <strong>Hux</strong>. I'm an engineer &amp; a designer who loves to build software such as <a href="http://yanshuo.io">Yanshuo.io</a> and more (<a href="/portfolio">Portfolio 👉</a> and <a href="http://github.com/huxpro">Github 👉</a>). I studied Digital Media Art and graduated from <a href="https://en.wikipedia.org/wiki/Communication_University_of_China">Communication University of China</a> in 2016.</p>
 
-    <p>
-    If you want to live your life in a creative way, as an artist, you have to not look back too much. You have to be willing to take whatever you’ve done and whoever you were and throw them away.
-    </p>
+    <p>As an engineer, I worked at Wepiao (<a href="https://www.crunchbase.com/organization/wepiao#/entity">see CrunchBase</a>) as the dev lead of Front-End Infrastructure Team, and used to intern at <a href="https://www.alitrip.com/">Alibaba Trip</a> for one year. As a designer, I was offered to be the UI/UX Designer Intern of Alibaba, Microsoft etc.</p>
 
-    <p style="text-align:right;">
-    -- Steve Jobs
-    </p>
+    <p>Moreover, I'm also a translator at <a href="http://www.gfansub.com/">GDG China Subtitle Team</a>, maintainer at <a href="http://zhuanlan.zhihu.com/FrontendMagazine">Frontend Magazine</a> and the owner of <a href="http://zhuanlan.zhihu.com/huxblog">Lifelong Romantic Geek</a>.</p>
 
+    <h5>Talks</h5>
+
+    <ul>
+    <li><a href="//huangxuan.me/2016/10/20/pwa-qcon2016/">Progressive Web Apps, the renaissance of web · QCon Shanghai 2016</a></li>
+    <li><a href="//huangxuan.me/2016/06/05/pwa-in-my-pov/">Progressive Web App in my pov · 2016</a></li>
+    <li><a href="//huangxuan.me/2015/12/28/css-sucks-2015/">CSS Still Sucks 2015 · 2015</a></li>
+    <li><a href="//huangxuan.me/2015/07/09/js-module-7day/">JavaScript Modularization Journey · 2015</a></li>
+    </ul>
 </div>
 
 <!-- Handle Language Change -->
 <script type="text/javascript">
+    // get nodes
     var $zh = document.querySelector(".zh");
     var $en = document.querySelector(".en");
-    function onLanChange(index){
-        if(index == 0){
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }else{
+    var $select = document.querySelector("select");
+
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
             $en.style.display = "block";
             $zh.style.display = "none";
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
         }
     }
-    onLanChange(0);
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+        }else{
+            window.location.hash = "#en"
+        }
+    }
+
+    // init
+    _render();
 </script>
 
 
@@ -224,13 +286,11 @@
 </div>
 <!-- 多说评论框 end -->
 
-<!-- Duoshuo hacking -->
-<input id="dsUser" type="hidden" value="huxblog"  />
-
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
     // dynamic User hacking by Hux
-    var _user = document.getElementById('dsUser').value;
+    var _user = 'huxblog';
+
     // duoshuo comment query.
     var duoshuoQuery = {short_name: _user };
     (function() {
@@ -265,25 +325,111 @@
                     <div class="tags">
                         
                             
-                        
+                                <a href="/tags/#知乎" title="知乎" rel="7">
+                                    知乎
+                                </a>
                             
                         
                             
                         
                             
+                                <a href="/tags/#Android" title="Android" rel="2">
+                                    Android
+                                </a>
+                            
                         
                             
-                                <a href="/tags/#前端开发" title="前端开发" rel="3">
+                                <a href="/tags/#交互设计" title="交互设计" rel="4">
+                                    交互设计
+                                </a>
+                            
+                        
+                            
+                                <a href="/tags/#阿里巴巴" title="阿里巴巴" rel="3">
+                                    阿里巴巴
+                                </a>
+                            
+                        
+                            
+                                <a href="/tags/#前端开发" title="前端开发" rel="10">
                                     前端开发
                                 </a>
                             
                         
                             
-                                <a href="/tags/#JavaScript" title="JavaScript" rel="3">
+                                <a href="/tags/#职业病" title="职业病" rel="3">
+                                    职业病
+                                </a>
+                            
+                        
+                            
+                                <a href="/tags/#生活" title="生活" rel="2">
+                                    生活
+                                </a>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <a href="/tags/#hUX 随想录" title="hUX 随想录" rel="2">
+                                    hUX 随想录
+                                </a>
+                            
+                        
+                            
+                        
+                            
+                                <a href="/tags/#UX Design" title="UX Design" rel="3">
+                                    UX Design
+                                </a>
+                            
+                        
+                            
+                                <a href="/tags/#OS" title="OS" rel="2">
+                                    OS
+                                </a>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <a href="/tags/#JavaScript" title="JavaScript" rel="7">
                                     JavaScript
                                 </a>
                             
                         
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <a href="/tags/#译文" title="译文" rel="2">
+                                    译文
+                                </a>
+                            
+                        
+                            
+                        
+                            
+                                <a href="/tags/#PWA" title="PWA" rel="2">
+                                    PWA
+                                </a>
                             
                         
                     </div>
@@ -298,7 +444,7 @@
                             <img src="/img/avatar-hux.jpg" />
                         
                         
-                            <p>写写代码，做做设计，看看产品。世界那么大，多玩玩看看。</p>
+                            <p>写写代码，做做设计，<br>离开世界之前，一切都是过程</p>
                         
                         <!-- SNS Link -->
                         <ul class="list-inline">
@@ -344,6 +490,7 @@
                                 </a>
                             </li>
                             
+                            
                         </ul>
                     </div>
                 </section>
@@ -353,15 +500,27 @@
                 <h5>FRIENDS</h5>
                 <ul class="list-inline">
                     
-                        <li><a href="http://huangxuan.me">Hux Blog</a></li>
+                        <li><a href="http://su.gallery/">Su</a></li>
                     
-                        <li><a href="#">Foo</a></li>
+                        <li><a href="http://mida.re/">乱序</a></li>
                     
-                        <li><a href="#">Bar</a></li>
+                        <li><a href="http://qianduan.guru/">前端外刊评论</a></li>
                     
-                        <li><a href="#">Example Friends</a></li>
+                        <li><a href="http://lingyu.wang/">天镶的博客</a></li>
                     
-                        <li><a href="#">It helps SEO</a></li>
+                        <li><a href="http://hmqk1995.github.io">Luke 的自留地</a></li>
+                    
+                        <li><a href="http://ebnbin.com/">Ebn's Blog</a></li>
+                    
+                        <li><a href="http://blog.smdcn.net">SmdCn's Blog</a></li>
+                    
+                        <li><a href="http://xieminis.me/">解旻的博客</a></li>
+                    
+                        <li><a href="http://dhong.co">DHong Say</a></li>
+                    
+                        <li><a href="http://ingf.github.io/">尹峰以为</a></li>
+                    
+                        <li><a href="http://wepiaofei.github.io/blog/">前端神盾局</a></li>
                     
                 </ul>
                 
@@ -423,14 +582,15 @@
                         </a>
                     </li>
                     
+                    
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; 低头奔跑的猫 2016
+                    Copyright &copy; Hux Blog 2016
                     <br>
                     Theme by <a href="http://huangxuan.me">Hux</a> |
                     <iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="91px" height="20px"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
                         src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
                     </iframe>
                 </p>
@@ -447,6 +607,19 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script type="text/javascript">
+    if(navigator.serviceWorker){
+        // For security reasons, a service worker can only control the pages that are in the same directory level or below it. That's why we put sw.js at ROOT level.
+        navigator.serviceWorker
+            .register('/sw.js')
+            .then((registration) => {console.log('Service Worker Registered. ', registration)})
+            .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
+    }
+</script>
+
 
 
 <!-- async load function -->
@@ -468,7 +641,8 @@
      so Huxblog drops it officially.
 
      - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
-     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers   
 -->
 <!--
     <script>
@@ -484,7 +658,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("/js/jquery.tagcloud.js",function(){
+        async('/js/jquery.tagcloud.js',function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
@@ -496,7 +670,7 @@
 
 <!--fastClick.js -->
 <script>
-    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
         var $nav = document.querySelector("nav");
         if($nav) FastClick.attach($nav);
     })
@@ -524,19 +698,11 @@
 
 <!-- Baidu Tongji -->
 
-<script>
-    // dynamic User by Hux
-    var _baId = '4cc1f2d8f3067386cc5cdb626a202900';
 
-    // Originial
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?" + _baId;
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-</script>
+
+
+<!-- Side Catalog -->
+
 
 
 
