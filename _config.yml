@@ -1,7 +1,7 @@
 # Site settings
 title: 低头奔跑的猫
 SEOTitle: 低头奔跑的猫 | Weirenkui‘s Blog
-header-img: img/home-bg.jpg
+header-img: img/me-home-bg.jpg
 email: weirenkui@foxmail.com
 description: "这个人很懒 | 他什么也没写 | 这里是 @EricWay 的个人博客，与你一起发现更大的世界。"
 keyword: "呆比 两个呆比 三个代表"
@@ -12,11 +12,11 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
+weibo_username:     u/1982414343
+zhihu_username:     wei-ren-kui
+github_username:    EricWay
 #twitter_username:  huxpro
-facebook_username:  huxpro
+facebook_username:  profile.php?id=100011250600691
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -71,7 +71,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "马马虎虎，抄抄改改，<br>这个屌blog，还是个半成品"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/me-office.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -90,37 +90,10 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Su",
-        href: "http://su.gallery/"
+        title: "我没有friends",
+        href: "https://github.com/EricWay"
     },{
-        title: "乱序",
-        href: "http://mida.re/"
-    },{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
-    },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    },{
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
+        title: "真没有",
+        href: "https://github.com/EricWay"
     }
 ]
