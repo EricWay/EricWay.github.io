@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:_config.yml">
+   </FileRef>
+   <FileRef
+      location = "group:_layouts">
+   </FileRef>
+   <FileRef
+      location = "group:_site">
+   </FileRef>
+   <FileRef
+      location = "group:about.html">
+   </FileRef>
+   <FileRef
+      location = "group:portfolio">
+   </FileRef>
+   <FileRef
+      location = "group:CNAME">
+   </FileRef>
+   <FileRef
+      location = "group:sw.js">
+   </FileRef>
+   <FileRef
+      location = "group:_posts">
+   </FileRef>
+   <FileRef
+      location = "group:_includes">
+   </FileRef>
+   <FileRef
+      location = "group:404.html">
+   </FileRef>
+   <FileRef
+      location = "group:package.json">
+   </FileRef>
+   <FileRef
+      location = "group:Gruntfile.js">
+   </FileRef>
+   <FileRef
+      location = "group:index.html">
+   </FileRef>
+   <FileRef
+      location = "group:css">
+   </FileRef>
+   <FileRef
+      location = "group:js">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:img">
+   </FileRef>
+   <FileRef
+      location = "group:fonts">
+   </FileRef>
+   <FileRef
+      location = "group:feed.xml">
+   </FileRef>
+   <FileRef
+      location = "group:less">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:offline.html">
+   </FileRef>
+   <FileRef
+      location = "group:pwa">
+   </FileRef>
+   <FileRef
+      location = "group:README.zh.md">
+   </FileRef>
+   <FileRef
+      location = "group:tags.html">
+   </FileRef>
+</Workspace>
