@@ -71,9 +71,6 @@
       location = "group:pwa">
    </FileRef>
    <FileRef
-      location = "group:README.zh.md">
-   </FileRef>
-   <FileRef
       location = "group:tags.html">
    </FileRef>
 </Workspace>
