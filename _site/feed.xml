@@ -5,9 +5,35 @@
     <description>这个人很懒 | 他什么也没写 | 这里是 @EricWay 的个人博客，与你一起发现更大的世界。</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Nov 2016 00:27:35 +0800</pubDate>
-    <lastBuildDate>Sat, 19 Nov 2016 00:27:35 +0800</lastBuildDate>
+    <pubDate>Wed, 23 Nov 2016 22:56:54 +0800</pubDate>
+    <lastBuildDate>Wed, 23 Nov 2016 22:56:54 +0800</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>取舍与拿来主义</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“对于软件构建来说，‘努力创造真正的原创成果’的开发效率，往往低于专注于重用（resuse）以往项目的一些设计思想、代码及测试用例（test case）的开发效率”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;决定写这篇文章之前，特地重新拜读了一下鲁迅先生的名篇《拿来主义》，再次确认了“拿来主义”并不是一个十恶不赦的贬义词（实际上鲁老爷子是主张有辨别的“拿来”的，原文论证应该批判继承和借鉴文化遗产及外来文化） ，毕竟我虽然喜欢胡说八道，但也总要讲究个“政治正确”。&lt;/p&gt;
+
+&lt;p&gt;我在之前的一篇看似无病呻吟的博文当中写过一句话：”人，总要学会取舍“，其实真的是有感而发。一直以来，我都是一个特别较劲儿的人，什么都想知道，什么都想尝试，而且碰到感兴趣的问题就必须要追根究底，碰到喜欢做的事最好能从头开始。这种感觉就像是偶然看了部《复仇者联盟》，就一定要把《蚁人》、《美国队长》、《钢铁侠》乃至《神盾局特工》都给补上一样，定要搞清楚整个漫威电影宇宙（Marvel Cinematic Universe）才肯罢休，哪怕是其中有些部分并不是那么精彩，譬如《无敌浩克》。然而人的精力总归是有限的，这种“穷追不舍”会把人搞的身心俱疲。世界那么大，奇妙的知识和有趣的事情如大海无垠，似繁星浩瀚，想了解和想去做的自然也不会少。贪多嚼不烂，在一次又一次的昧着自己的良心半途而废之后终于发现，学会取舍真的尤为重要。&lt;/p&gt;
+
+&lt;p&gt;之所以最近这种体会特别深，还是因为终于开始真正的接触项目。按照我以前的性格，做项目肯定是巴不得能够从始至终、每个部分都参与才好，但实际情况是你不知道什么时候就要接手一个烂摊子，一起随之而来的还有deadline。再加上有些东西只给你开放API，核心代码欲窥之而不得，有些组件耗费了几代人的心血，能用的好就要烧高香，况且“对于软件构建来说，‘努力创造真正的原创成果’的开发效率，往往低于专注于重用（resuse）以往项目的一些设计思想、代码及测试用例（test case）的开发效率”，于是在一次次碰壁之后不得不面对现实，舍弃自己的好奇心，潜心研究如何“拿来”。&lt;/p&gt;
+
+&lt;p&gt;其实仔细想想，这种想要直接拿来的想法并不是一蹴而就，而是早在生活当中现了端倪。举一个简单的例子，上小学初中的时候，课本一定要买新书，上了大学之后反而却十分偏爱写满了笔记的二三四手，如果能随书附赠学长学姐们的习题讲义、实验报告什么的，那就更求之不得—–毕竟哈里波特拿了斯内普的草药学课本，也能超过赫敏从学渣变学霸。&lt;/p&gt;
+
+&lt;p&gt;应当如何拿来，鲁老爷子说的比我好。罢了罢了，伟如牛顿都要站在巨人的肩膀上，人生苦短，我也还是本分一点，挑重点的来吧！&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 21 Nov 2016 20:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2016/11/21/%E5%8F%96%E8%88%8D%E4%B8%8E%E6%8B%BF%E6%9D%A5%E4%B8%BB%E4%B9%89/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/11/21/%E5%8F%96%E8%88%8D%E4%B8%8E%E6%8B%BF%E6%9D%A5%E4%B8%BB%E4%B9%89/</guid>
+        
+        <category>歪理邪说</category>
+        
+        
+      </item>
     
       <item>
         <title>我为什么要写博客</title>
@@ -105,13 +131,11 @@
 &lt;p&gt;哎，你俩要是看到的话，倒是给个音儿啊，说好的一起玩儿，不会这么怂吧？&lt;/p&gt;
 </description>
         <pubDate>Sun, 30 Oct 2016 20:02:26 +0800</pubDate>
-        <link>http://localhost:4000/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97/2016/10/30/%E4%B8%A4%E4%B8%AA%E5%91%86%E6%AF%94/</link>
-        <guid isPermaLink="true">http://localhost:4000/%E9%A1%B9%E7%9B%AE%E6%97%A5%E5%BF%97/2016/10/30/%E4%B8%A4%E4%B8%AA%E5%91%86%E6%AF%94/</guid>
+        <link>http://localhost:4000/2016/10/30/%E4%B8%A4%E4%B8%AA%E5%91%86%E6%AF%94/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/10/30/%E4%B8%A4%E4%B8%AA%E5%91%86%E6%AF%94/</guid>
         
-        <category>无关风月</category>
+        <category>歪理邪说</category>
         
-        
-        <category>项目日志</category>
         
       </item>
     
