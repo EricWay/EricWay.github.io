@@ -1,11 +1,13 @@
 ---
-
-layout: post
-title:  "对话"
-date: 2016-11-14 10:02:26 +0800
-categories: 无关风月
-tag:
-    - 无关风月
+layout:     post
+title:      "对话"
+subtitle:   
+date:       2016-11-14 12:00:00
+author:     "weirenkui"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 歪理邪说
 ---
 想做的事情有很多。
 
